@@ -65,13 +65,15 @@ Persistent instructions establish everyday communication preferences. The skill 
 
 Simple command lookups remain direct. Controlling explanation depth does not require stopping authorized implementation for comprehension checks. Explicit teaching, discussion-only, or checkpoint requests still control how work proceeds.
 
-## Validation
+## Validation status
 
-The skill passed the Codex skill-creator frontmatter and naming validator. The original package was also checked for English text, unfinished placeholders, and consistency across its Codex and Gemini CLI versions.
+This revision is under active behavioral validation; full acceptance has not been established.
 
-Small independent agent simulations covered a duplicate-order mechanism, a missing terminology prerequisite, and a PowerShell command lookup. They preserved the technical mechanism and kept the command lookup direct. Some implementation expansion remained, so progressive expansion is guidance rather than a proven hard depth limit.
+Both skill manifests pass the frontmatter and naming validator, and the instruction files are English. Real Codex CLI tests of the shared workflow covered causal mechanisms, actual caller mapping, grounded decision conditions, explanation repair, prerequisite definitions, understanding-state summaries, and relevance pruning. A native test loaded the current skill and answered in the user's requested Chinese.
 
-Actual Gemini CLI discovery, activation, and behavior have not been verified end to end. Use the installation checks above in your environment.
+An earlier Gemini CLI candidate was discovered and activated successfully. Earlier Gemini responses still showed scope and accuracy failures, including excessive architecture detail, lost measurement qualifiers, and unsupported inferences; these informed the current revision. The latest headless generation tests did not return responses, including a minimal request containing only "Reply with exactly OK." Consequently, the latest Gemini behavior remains unverified.
+
+The protocol supplies instructions, not a guarantee that every model response will comply. Use the installation checks above, and evaluate the explanations in your own runtime. No global proxy, model, authentication, or approval settings are changed by these files.
 
 ## Official references
 
